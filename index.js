@@ -36,7 +36,7 @@ class Passenger {
 
   drivers() {
     debugger
-    return this.trips().map(driver => driver.id)
+    return this.trips().map(driver => driver)
   }
   //  {
   //   return store.drivers.filter(driver => {
