@@ -38,11 +38,6 @@ class Passenger {
     debugger
     return this.trips().map(driver => driver)
   }
-  //  {
-  //   return store.drivers.filter(driver => {
-  //     return driver.passengerId === this.id
-  //   })
-  // }
 
   trips() {
     return store.trips.filter(trip => {
@@ -55,7 +50,6 @@ class Passenger {
 class Trip {
   constructor(driver, passenger) {
     this.id = ++tripId
-
     this.driverId = driver.id
     this.passengerId = passenger.id
 
@@ -74,6 +68,5 @@ class Trip {
       return driver.id === this.driverId
     })
   }
-
 
 }
