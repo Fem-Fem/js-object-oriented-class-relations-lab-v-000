@@ -21,7 +21,6 @@ class Driver {
 
   trips() {
     x = store.trips.filter(trip => {
-      debugger;
       return trip.driverId === this.id
     })
   }
