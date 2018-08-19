@@ -34,7 +34,9 @@ class Passenger {
     store.passengers.push(this)
   }
 
-  drivers()
+  drivers() {
+    return this.driver.map(driver => driver.id)
+  }
   //  {
   //   return store.drivers.filter(driver => {
   //     return driver.passengerId === this.id
