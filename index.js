@@ -35,6 +35,7 @@ class Passenger {
   }
 
   drivers() {
+    debugger
     return this.trips().map(driver => driver.id)
   }
   //  {
