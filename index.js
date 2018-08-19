@@ -20,7 +20,7 @@ class Driver {
   // }
 
   trips() {
-    return store.trips.filter(trip => {
+    store.trips.filter(trip => {
       debugger
       return trip.driverId === this.id
     })
@@ -44,7 +44,6 @@ class Passenger {
 
   drivers() {
     return store.drivers.filter(driver => {
-      debugger
       return driver.passengerId === this.id
     })
   }
