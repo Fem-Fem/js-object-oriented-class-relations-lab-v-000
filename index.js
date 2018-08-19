@@ -19,7 +19,7 @@ class Driver {
   }
 
   passengers() {
-    // debugger
+    debugger
     return this.trips().map(passenger => passenger)
   }
 
