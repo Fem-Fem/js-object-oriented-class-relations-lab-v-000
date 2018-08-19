@@ -21,7 +21,11 @@ class Driver {
   passengers() {
     debugger
     passenger_ids = this.trips().map(trip => trip.passengerId)
-    passengers = passenger_ids.map
+    passengers = passenger_ids.map(id => {
+      return {
+          id: Passenger.find(id)
+      }
+    })
   }
 
 }
