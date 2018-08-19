@@ -48,11 +48,11 @@ class Trip {
 
   }
 
-  // passenger() {
-  //   return store.passengers.filter(trip => {}
-  //     return passenger.tripId === this.id
-  //   })
-  // }
+  passenger() {
+    return store.passengers.filter(trip => {
+      return passenger.tripId === this.id
+    })
+  }
 
 
 }
