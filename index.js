@@ -19,9 +19,7 @@ class Driver {
   }
 
   passengers() {
-    return this.trips.map(passenger => {
-      return passenger.driverId === this.id
-    })
+    return this.trips.map(passenger => passenger)
   }
 
 }
