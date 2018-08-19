@@ -49,7 +49,7 @@ class Trip {
   }
 
   passenger() {
-    return store.passengers.find(function(user) {
+    return store.passengers.find(function(passenger) {
       return passenger.tripId === this.id
     })
   }
