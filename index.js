@@ -50,6 +50,7 @@ class Passenger {
 
   trips() {
     return store.trips.filter(trip => {
+      debugger
       trip.driverId === this.id
     })
   }
