@@ -60,6 +60,7 @@ class Trip {
   }
 
   passenger() {
+    return this.driver.map(driver => driver.id)
     // return store.passengers.find(passenger => {
     //   return passenger.id === this.passengerId
     // })
