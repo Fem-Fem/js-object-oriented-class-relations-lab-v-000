@@ -26,6 +26,7 @@ class Driver {
         passenger.id == id
       })
     })
+    return passengers
   }
 
 }
