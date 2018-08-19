@@ -20,6 +20,7 @@ class Driver {
 
   trips() {
     return store.trips.find(trip => {
+      debugger
       return trip.driverId === this.id
     })
   }
