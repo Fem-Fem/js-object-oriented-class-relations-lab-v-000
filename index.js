@@ -49,7 +49,7 @@ class Trip {
   }
 
   passenger() {
-    return store.passengers.find(passenger) => {
+    return store.passengers.find(passenger => {
       debugger
       return passenger.id === this.passengerId
     })
