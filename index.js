@@ -18,8 +18,8 @@ class Driver {
     store.drivers.push(this)
   }
 
-  passengers() {
-    return store.passengers.find(passenger => {
+  trips() {
+    return store.trips.find(passenger => {
       return passenger.driverId === this.id
     })
   }
