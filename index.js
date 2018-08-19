@@ -35,7 +35,8 @@ class Passenger {
   }
 
   drivers() {
-    return this.trips
+    x = this.trips
+    return x
   }
   //  {
   //   return store.drivers.filter(driver => {
