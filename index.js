@@ -24,6 +24,12 @@ class Driver {
     })
   }
 
+  passengers() {
+    return store.passengers.find(passenger => {
+      return passenger.driverId === this.id
+    })
+  }
+
 }
 
 class Passenger {
