@@ -23,7 +23,7 @@ class Driver {
     let passenger_ids = this.trips().map(trip => {return trip.passengerId})
     let passengers = passenger_ids.map(id => {
       return store.passengers.find(passenger => {
-        passenger.id == id
+        return passenger.id == id
       })
     })
     return passengers
