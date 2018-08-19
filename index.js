@@ -35,7 +35,7 @@ class Passenger {
   }
 
   drivers() {
-    return this.driver.map(driver => driver.id)
+    return this.driver
   }
   //  {
   //   return store.drivers.filter(driver => {
