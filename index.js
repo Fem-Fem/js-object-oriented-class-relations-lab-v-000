@@ -64,6 +64,9 @@ class Trip {
   //     return passenger.id === this.passengerId
   //   })
   // }
+  passenger() {
+    
+  }
 
   driver() {
     return store.drivers.find(driver => {
