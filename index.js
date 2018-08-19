@@ -12,6 +12,13 @@ class Driver {
     store.drivers.push(this)
   }
 
+  // trips() {
+  //   x = store.trips.filter(trip => {
+  //     debugger;
+  //     return trip.driverId === this.id
+  //   })
+  // }
+
   trips() {
     x = store.trips.filter(trip => {
       debugger;
