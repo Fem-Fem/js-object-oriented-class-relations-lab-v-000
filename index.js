@@ -44,6 +44,7 @@ class Passenger {
 
   drivers() {
     return store.drivers.filter(driver => {
+      debugger
       return driver.passengerId === this.id
     })
   }
