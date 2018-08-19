@@ -36,7 +36,7 @@ class Passenger {
 
   drivers() {
     return store.drivers.filter(driver => {
-      return driver.id === this.driverId
+      return driver.passengerId === this.driverId
     })
   }
 
